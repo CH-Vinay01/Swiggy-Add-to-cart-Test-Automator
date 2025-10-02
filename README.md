@@ -1,16 +1,16 @@
 import { Alert, Steps } from 'nextra/components'
 
-# 🛒 Swiggy Add-to-Cart Test Automator
+# Swiggy Add-to-Cart Test Automator
 
 ## A Selenium WebDriver Project for Fugal Testing Assignment
 
-This repository contains the **Swiggy Add-to-Cart Test Automator**, a **Java-Selenium** project developed as part of the Fugal Testing assignment. The project automates a comprehensive e-commerce flow on the Swiggy platform, validating key functionalities from login to the final payment gateway.
+This repository contains the **Swiggy Add-to-Cart Test Automator**, a **Java-Selenium** project developed as part of the Fugal Testing assignment. The project automates a comprehensive e-commerce flow on the Swiggy platform, validating key functionalities from user login to the final payment gateway.
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
-The primary goal of this assignment is to **automate the end-to-end process of ordering food on Swiggy** using **Selenium WebDriver** in Java. The automation script is designed to meticulously execute the following steps:
+The primary goal of this assignment is to **automate the end-to-end process of ordering food on Swiggy** using **Selenium WebDriver** in Java. The automation script is designed to meticulously execute the following actions:
 
 1.  **Navigate** to the Swiggy website.
 2.  **Search** for and select a delivery location.
@@ -21,12 +21,12 @@ The primary goal of this assignment is to **automate the end-to-end process of o
 7.  **Proceed** to the final payment page.
 
 <Alert type="info">
-The script is designed to halt execution *before* completing the payment, fulfilling the scope of a complete functional test scenario.
+The script is designed to halt execution *before* completing the payment, fulfilling the scope of a complete functional test scenario as required by the assignment brief.
 </Alert>
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Technology | Role |
 | :--- | :--- |
@@ -37,9 +37,9 @@ The script is designed to halt execution *before* completing the payment, fulfil
 
 ---
 
-## ⚙️ Automation Steps Executed
+## Automation Steps Executed
 
-The automation flow strictly follows the steps required by the assignment brief, ensuring a complete and valid test case execution.
+The automation flow strictly follows the steps required by the assignment brief, ensuring a complete and valid test case execution sequence.
 
 <Steps>
 ### 1. User Login (Manual OTP Entry)
@@ -54,7 +54,7 @@ Since Swiggy utilizes an OTP-based authentication mechanism, the script is inten
 
 ### 2. Validation of Initial State
 
-The script prints the **page title** and **current URL** to the console to confirm successful initial navigation and page load validation.
+The script is programmed to print the **page title** and **current URL** to the console to confirm successful initial navigation and page load validation.
 
 ### 3. Location and Delivery Setup
 
@@ -95,22 +95,22 @@ The final step involves clicking the **"Proceed to Pay"** button, successfully r
 
 ---
 
-## 💻 Current Code Status
+## Current Code Status
 
 The current implementation provides a robust foundation for the entire test flow.
 
-| Feature | Status |
-| :--- | :--- |
-| Initial Setup & Driver Management | ✅ Complete |
-| Login & Manual Wait | ✅ Complete |
-| Initial URL/Title Validation | 🚧 To be explicitly added (logging) |
-| Location Selection | ✅ Complete |
-| Restaurant Search & Select | ✅ Complete |
-| Item Search & Add | ✅ Complete |
-| View Cart Navigation | ✅ Complete |
-| **Quantity Increase** | 🚧 Patchwork remains (Not fully visible in the provided snippet, to be completed) |
-| **Delivery Address Entry** | 🚧 Patchwork remains (Not fully visible in the provided snippet, to be completed) |
-| **Proceed to Payment** | 🚧 Patchwork remains (Not fully visible in the provided snippet, to be completed) |
+| Feature | Status | Completion Level |
+| :--- | :--- | :--- |
+| Initial Setup & Driver Management | Complete | Implemented |
+| Login & Manual Wait | Complete | Implemented |
+| Initial URL/Title Validation | In Progress | Logging needs explicit addition |
+| Location Selection | Complete | Implemented |
+| Restaurant Search & Select | Complete | Implemented |
+| Item Search & Add | Complete | Implemented |
+| View Cart Navigation | Complete | Implemented |
+| **Quantity Increase** | In Progress | Patchwork remains |
+| **Delivery Address Entry** | In Progress | Patchwork remains |
+| **Proceed to Payment** | In Progress | Patchwork remains |
 
 The initial provided Java code snippet (`SwiggyTestAutomator.java`) demonstrates the successful navigation, login wait, location, restaurant, and item addition steps. The remaining steps (Quantity Increase, Address Entry, and Payment Proceed) are in the process of being finalized with the correct XPath locators and interaction logic.
 
@@ -118,11 +118,11 @@ The initial provided Java code snippet (`SwiggyTestAutomator.java`) demonstrates
 
 The complete project structure and code can be accessed via the following compressed archive:
 
-➡️ **[Project Zip File (Google Drive)](https://drive.google.com/file/d/12OnNkkkfnqx_DnsWENQsxhbBq2a4npXE/view?usp=drive_link)**
+[Project Zip File (Google Drive)](https://drive.google.com/file/d/12OnNkkkfnqx_DnsWENQsxhbBq2a4npXE/view?usp=drive_link)
 
 ---
 
-## 🚀 Execution Instructions
+## Execution Instructions
 
 1.  **Clone** the repository.
 2.  Ensure **Java** (JDK) and **Maven** are installed.
